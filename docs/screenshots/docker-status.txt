@@ -1,0 +1,2 @@
+NAMES      STATUS                   PORTS                                         IMAGE
+orca-dna   Up 6 minutes (healthy)   0.0.0.0:8082->8082/tcp, [::]:8082->8082/tcp   infinity-ai-orca:latest

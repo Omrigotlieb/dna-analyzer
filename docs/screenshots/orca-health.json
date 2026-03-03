@@ -1,0 +1,31 @@
+{
+    "status": "healthy",
+    "activeWorkers": 1,
+    "maxWorkers": 3,
+    "tasksProcessed": 3,
+    "tasksFailed": 0,
+    "uptime": 395.521297597,
+    "managerId": "orca-dna-1772533094667-sx0g8p",
+    "project": {
+        "id": "k974njszvhp1waj19acr7hvbpx827kvm",
+        "key": "DNA",
+        "name": "DNA Analyzer"
+    },
+    "cronDaemon": {
+        "tasksChecked": 0,
+        "tasksSpawned": 0,
+        "tasksFailed": 0,
+        "lastPollTime": 1772533456575,
+        "lastSpawnTime": null,
+        "uptime": 394826,
+        "isRunning": true
+    },
+    "circuitBreaker": {
+        "state": "CLOSED",
+        "consecutiveAuthFailures": 0,
+        "consecutiveGenericFailures": 0,
+        "totalAuthFailures": 0,
+        "openedAt": null,
+        "pauseUntil": null
+    }
+}
