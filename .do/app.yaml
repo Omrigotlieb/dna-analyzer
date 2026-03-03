@@ -1,0 +1,23 @@
+name: dna-analyzer
+region: nyc
+services:
+- name: web
+  github:
+    repo: Omrigotlieb/dna-analyzer
+    branch: main
+    deploy_on_push: true
+  build_command: npm run build
+  run_command: npm start
+  http_port: 3000
+  instance_size_slug: basic-xxs
+  instance_count: 1
+  envs:
+  - key: ANTHROPIC_API_KEY
+    value: PLACEHOLDER_REPLACE_ME
+    type: SECRET
+  - key: NODE_ENV
+    value: production
+    type: GENERAL
+  - key: NEXT_PUBLIC_APP_URL
+    value: ${APP_URL}
+    type: GENERAL
